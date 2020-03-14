@@ -1,0 +1,101 @@
+@font-face {
+  font-family: write;
+  src: url("字体/MamaLove.ttf");
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: medium;
+  background-image: url("images/1.jpg");
+  background-size: cover;
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lan {
+  opacity: 0.5;
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+}
+
+.lan .logo a {
+  font-family: write;
+  font-size: 80px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: chartreuse;
+}
+
+.lan .menu {
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.lift li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 1em;
+}
+
+.lift li a {
+  font-size: 20px;
+}
+
+.lift li a:hover {
+  color: chocolate;
+  font-size: 25px;
+}
+
+.game {
+  background-image: url("images/5.jpg");
+  position: absolute;
+  left: 26px;
+  top: 110px;
+  width: 755px;
+  height: 600px;
+}
+
+.game button {
+  width: 220px;
+  height: 60px;
+  position: absolute;
+  left: 260px;
+  bottom: 40px;
+  opacity: 0.5;
+  background-color: darkgreen;
+}
+
+.game button a {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  color: azure;
+}
+
+.person {
+  background-image: url("images/8.jpg");
+  position: relative;
+  width: 410px;
+  height: 600px;
+  top: 110px;
+  left: 870px;
+}
+
+.person a {
+  position: relative;
+  color: chartreuse;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  left: 132px;
+}
+
+.person a:hover{
+  color: red;
+}
